@@ -597,58 +597,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Device\nState",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Device\nState"
-            ],
-            "id": "322da5ec-332b-4963-9a26-37fc24da9d31",
-            "source": {
-              "cell": "ac1672f7-4953-4fd9-9a8d-410836dac17e",
-              "port": "63b7d3f0-6f77-4df2-8965-5f06cc9bb9ed"
-            },
-            "target": {
-              "cell": "1de38933-1dd7-42cf-b92e-a62c03740c55",
-              "port": "c85012b1-3198-48e0-bea0-82dde24f38cb"
-            },
-            "vertices": [
-              {
-                "x": 810,
-                "y": 300
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Access\nFootage",
               "description": "",
               "outOfScope": false,
@@ -944,6 +892,58 @@
               {
                 "x": 370,
                 "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Device\nState",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Device\nState"
+            ],
+            "id": "322da5ec-332b-4963-9a26-37fc24da9d31",
+            "source": {
+              "cell": "ac1672f7-4953-4fd9-9a8d-410836dac17e",
+              "port": "63b7d3f0-6f77-4df2-8965-5f06cc9bb9ed"
+            },
+            "target": {
+              "cell": "1de38933-1dd7-42cf-b92e-a62c03740c55",
+              "port": "61b4e17e-76db-471c-9a45-a4853b4ba7f1"
+            },
+            "vertices": [
+              {
+                "x": 810,
+                "y": 315
               }
             ]
           },
