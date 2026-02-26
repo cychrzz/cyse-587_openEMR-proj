@@ -23,7 +23,7 @@
               "y": 20
             },
             "size": {
-              "width": 670,
+              "width": 570,
               "height": 510
             },
             "visible": true,
@@ -54,6 +54,13 @@
                 "ac1672f7-4953-4fd9-9a8d-410836dac17e",
                 "678a830e-1a7a-4d1a-bcf1-7988ee75f7c4"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
